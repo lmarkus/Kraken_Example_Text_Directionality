@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.note {
+  border:solid 3px white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 200px;
+  height: 30px
+}
+
+.game {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  border: double 4px blue;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.sprite {
+  background-color: black;
+  background-image: url("/images/pacman.png");
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  float: right;
+}
+
+@pacman: -456px 0;
+@blinky: -456px -64px;
+@pinky:  -456px -80px;
+@inky:   -456px -96px;
+@clyde:  -456px -112px;
+
+.pacman {
+  background-position: @pacman;
+  margin-left: 20px;
+}
+
+.blinky {
+  background-position: @blinky;
+}
+
+.pinky {
+  background-position: @pinky;
+}
+
+.inky {
+  background-position: @inky;
+}
+
+.clyde {
+  background-position: @clyde;
+}
