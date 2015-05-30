@@ -35,29 +35,45 @@ html, body {
   float: right;
 }
 
-@pacman: -456px 0;
-@blinky: -456px -64px;
-@pinky:  -456px -80px;
-@inky:   -456px -96px;
-@clyde:  -456px -112px;
+@dir: LTR;
+
+@pacmanLTR: -456px 0;
+@pacmanRTL: -456px -16px;
+@pacman   : "pacman@{dir}";
+
+@blinkyLTR: -456px -64px;
+@blinkyRTL: -488px -64px;
+@blinky   : "blinky@{dir}";
+
+@pinkyLTR : -456px -80px;
+@pinkyRTL : -488px -80px;
+@pinky    : "pinky@{dir}";
+
+@inkyLTR  : -456px -96px;
+@inkyRTL  : -488px -96px;
+@inky     : "inky@{dir}";
+
+@clydeLTR : -456px -112px;
+@clydeRTL : -488px -112px;
+@clyde    : "clyde@{dir}";
 
 .pacman {
-  background-position: @pacman;
+  background-position: @@pacman;
   margin-left: 20px;
 }
 
 .blinky {
-  background-position: @blinky;
+  background-position: @@blinky;
 }
 
 .pinky {
-  background-position: @pinky;
+  background-position: @@pinky;
 }
 
 .inky {
-  background-position: @inky;
+  background-position: @@inky;
 }
 
 .clyde {
-  background-position: @clyde;
+  background-position: @@clyde;
 }

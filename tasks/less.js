@@ -21,7 +21,10 @@ module.exports = function less(grunt) {
 				cleancss: false,
 				plugins: [
 					new (require('less-plugin-rtl'))({dir:'RTL'})
-				]
+				],
+				modifyVars: {
+					dir: 'RTL'
+				}
 			},
 			files: {
 				'.build/css/app.rtl.css': 'public/css/app.less'
