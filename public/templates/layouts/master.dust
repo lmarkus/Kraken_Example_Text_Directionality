@@ -3,7 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <title>{+title /}</title>
-    <link rel="stylesheet" href="/css/app.css" />
+    {@select key=context.locality.directionality}
+        {@eq value="rtl"}
+            <link rel="stylesheet" href="/css/app.rtl.css"/>
+        {/eq}
+        {@default}
+            <link rel="stylesheet" href="/css/app.css"/>
+        {/default}
+    {/select}
 </head>
 <body>
 <div id="wrapper">
