@@ -67,12 +67,13 @@
     "grunt-config-dir": "^0.3.2",
     "grunt-contrib-clean": "^0.5.0",
     "grunt-contrib-jshint": "^0.6.5",
-    "grunt-contrib-less": "^0.9.0",
+    "grunt-contrib-less": "^1.0.0",
     "grunt-contrib-requirejs": "^0.4.3",
     "grunt-copy-to": "0.0.10",
     "grunt-dustjs": "^1.2.1",
     "grunt-localizr": "^0.1.0",
     "grunt-mocha-cli": "^1.7.0",
+    "less-plugin-rtl": "0.0.1",
     "mocha": "^1.18.0",
     "supertest": "^0.9.0"
   }
