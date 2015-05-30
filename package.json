@@ -1,0 +1,79 @@
+{
+  "name": "kraken_example_text_directionality",
+  "version": "1.0.0",
+  "description": "An example that highlight one possible implementation of LTR-RTL Text functionality",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmarkus/Kraken_Example_Text_Directionality.git"
+  },
+  "keywords": [
+    "Text",
+    "Directionality",
+    "RTL",
+    "LTR",
+    "Layouts",
+    "i18n",
+    "internationalization",
+    "right",
+    "to",
+    "left",
+    "left",
+    "to",
+    "right",
+    "l10n",
+    "localization"
+  ],
+  "author": "@LennyMarkus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmarkus/Kraken_Example_Text_Directionality/issues"
+  },
+  "homepage": "https://github.com/lmarkus/Kraken_Example_Text_Directionality",
+  "dependencies": {
+    "accepts": "^1.2.7",
+    "adaro": "~0.1.5",
+    "core-util-is": "^1.0.1",
+    "crc": "^3.2.1",
+    "debug": "^2.2.0",
+    "depd": "^1.0.1",
+    "dustjs-helpers": "~1.2.0",
+    "dustjs-linkedin": "~2.3.4",
+    "engine-munger": "^0.2.0",
+    "escape-html": "^1.0.1",
+    "etag": "^1.6.0",
+    "express": "^4.3.0",
+    "fresh": "^0.2.4",
+    "kraken-devtools": "^1.0.0",
+    "kraken-js": "^1.0.1",
+    "less": "~1.7.0",
+    "localizr": "~0.1.0",
+    "ms": "^0.7.1",
+    "on-finished": "^2.2.1",
+    "parseurl": "^1.3.0",
+    "range-parser": "^1.0.2",
+    "requirejs": "~2.1.11",
+    "send": "^0.12.3",
+    "serve-static": "^1.9.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.6.5",
+    "grunt-contrib-less": "^0.9.0",
+    "grunt-contrib-requirejs": "^0.4.3",
+    "grunt-copy-to": "0.0.10",
+    "grunt-dustjs": "^1.2.1",
+    "grunt-localizr": "^0.1.0",
+    "grunt-mocha-cli": "^1.7.0",
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  }
+}
