@@ -15,6 +15,17 @@ module.exports = function less(grunt) {
 	        files: {
 	            '.build/css/app.css': 'public/css/app.less'
 	        }
-	    }
+	    },
+		build_RTL: {
+			options: {
+				cleancss: false,
+				plugins: [
+					new (require('less-plugin-rtl'))({dir:'RTL'})
+				]
+			},
+			files: {
+				'.build/css/app.rtl.css': 'public/css/app.less'
+			}
+		}
 	};
 };
